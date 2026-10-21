@@ -1,0 +1,7 @@
+phi(0) = -0.6760407835, min phi = -0.7502197494 at s = 0.333, phi(-1) = 0.3483924815, phi(3) = 0.7493405785
+smallest (U2) integrals: [np.float64(1.7827696441315975e-06), np.float64(2.2499795381270005e-06), np.float64(2.4288525111696666e-06), np.float64(2.6320072081809087e-06)]
+chosen grid point 4.07496 (h 2.161e-06); smallest (U2) after the tent ~ 1.950e-06
+x0 = 407497/100000 = 4.07497: exact h(x0) in [2.1527060641840518639258005956102429748912105926e-6 +/- 5.74e-53]; grid min h = 2.161e-06
+w = 1e-6, eps = 1.4817e-7: expected h(x0) = 5.496e-9, min h = -5.496e-9, grid drop ~ eps*log(1e-5) = -1.706e-6
+x0 > 1: claim v raised by 1e-6 (as in the POSITIVE control)
+pre-screen on the check grid within +-0.01 of x0: min h = 4.342e-07 (> 0 means a grid test would pass); wrote ctrl_U3/neg_NARROWDIP.json
